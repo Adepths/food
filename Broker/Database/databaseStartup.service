@@ -1,0 +1,9 @@
+[Unit]
+Description=Database Services Startup
+Required=rabbitmq-server.service apache2.service
+[Service]
+Type=simple
+User=ananyakudugi
+ExecStart=/home/ananyakudugi/ForecastrFiles/testRabbitMQServer.php
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<variables>
+	<machine machine_type = "DMZ" environment="DEV"  file_location = "~/ForecastrFiles/Nontested/DMZ/" IP = "dmz@192.168.1.104" username = "DMZ" password = "password"></machine>
+	<machine machine_type = "DMZ" environment="QA"  file_location = "~/ForecastrFiles/Tested/DMZ/" IP = "dmz@192.168.1.14" username = "dmz" password = "password"></machine>
+	<machine machine_type = "DMZ" environment="PROD" file_location = "null" IP = "dmz@192.168.1.9" username = "dmz" password = "password"> </machine>
+	
+	<machine machine_type = "CLIENT" environment="DEV"  file_location = "~/ForecastrFiles/Nontested/Client/" IP = "jovana@192.168.1.102" username = "jovana" password = "jovana"></machine>
+        <machine machine_type = "CLIENT" environment="QA"  file_location = "~/ForecastrFiles/Tested/Client/" IP = "jovana@192.168.1.12" username = "jovana" password = "jovana"></machine>
+        <machine machine_type = "CLIENT" environment="PROD" file_location = "null" IP = "jovana@192.168.1.7" username = "jovana" password = "jovana"> </machine>
+
+        <machine machine_type = "DATABASE" environment="DEV"  file_location = "~/ForecastrFiles/Nontested/Database/" IP = "ananyakudugi@192.168.1.103" username = "DMZ" password = "Ananya12!"></machine>
+        <machine machine_type = "DATABASE" environment="QA"  file_location = "~/ForecastrFiles/Tested/Database/" IP = "ananyakudugi@192.168.1.13" username = "dmz" password = "Ananya12!"></machine>
+        <machine machine_type = "DATABASE" environment="PROD" file_location = "null" IP = "ananyakudugi@192.168.1.8" username = "dmz" password = "Ananya12!"> </machine>
+
+	<machine machine_type = "BROKER" environment="DEV"  file_location = "~/ForecastrFiles/Nontested/Broker/" IP = "jlhourcade@192.168.1.105" username = "jlhourcade" password = "Yukihama9"></machine>
+        <machine machine_type = "BROKER" environment="QA"  file_location = "~/ForecastrFiles/Tested/Broker/" IP = "jlhourcadeqa@192.168.1.15" username = "jlhourcade" password = "password"></machine>
+        <machine machine_type = "BROKER" environment="PROD" file_location = "null" IP = "jlhourcadeqa@192.168.1.10" username = "jlhourcadeqa" password = "password"> </machine>
+
+	<machine machine_type = "MASTER" environment="MASTER" file_location = "null" IP = "dmz@192.168.1.105" username = "dmz" password="password"></machine>
+
+</variables>
+
+
+
+
+
+
+
+

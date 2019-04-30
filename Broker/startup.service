@@ -1,0 +1,12 @@
+[Unit]
+Description=Broker Services Startup
+Required=rabbitmq-server.service apache2.service
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+User=jlhourcade
+ExecStart=/home/jlhourcade/rabbitmqphp_example/networkLoggerListener.php
+
+[Install]
+WantedBy=multi-user.target
