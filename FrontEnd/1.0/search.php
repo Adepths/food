@@ -17,7 +17,7 @@ h2 {
     color: #443366;
     font-size: 20px;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-    background: #FFFF00;
+    background: limegreen;
 
 } 
 p {

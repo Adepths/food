@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<script type="text/php" src="login.php"> </script>
+<style>
+{
+
+  
+}
+h1 {
+    color: #443366 ;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;	
+
+} 
+p {
+    color: #443366 ;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+}
+body { 
+  background: #e6e6e6;
+  text-align: center;
+  }
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #FFFF00;
+    clear: left;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="content">
+  <div class="container">
+
+<header>
+   <h1>Recipe Repository</h1>
+</header>
+
+  <form action="login.php" name="login" id="login" method="GET" >
+
+  <label for="username"><b><p>User Name</p></b></label>
+
+  <input id="username" name="username" type="text" placeholder="Enter User Name" required> <br>
+
+  <label for="password"><b><p>Password</p></b></label>
+  <input id="password" name="password" type="password" placeholder="Enter password" required/><br>
+  <br>
+ <input type=submit value="Log in"> <br>
+ <a href="registration.html">Don't have an account? Click here to register.</a>
+ <br>
+<br>
+</form>   
+
+</div>
+</body>
+</html>
+
